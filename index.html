@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="notification">
+        <div class="container notification__container">
+          <div class="notification-left__container">
+            <h4 class="notification-left__text">FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</h4>
+          </div>
+          <div class="notification-right__container">
+            <h4 class="notification-right__text--prefix">Until the end of the sale:</h4>
+            <h4 class="notification-right__text--numbers">47</h4>
+            <h4 class="notification-right__text--time">days</h4>
+            <h4 class="notification-right__text--numbers">06</h4>
+            <h4 class="notification-right__text--time">hours</h4>
+            <h4 class="notification-right__text--numbers">57</h4>
+            <h4 class="notification-right__text--time">minutes</h4>
+            <h4 class="notification-right__text--numbers">08</h4>
+            <h4 class="notification-right__text--time">sec.</h4>
+          </div>
+        </div>
+      </div>
+      <div class="top-header">
+        <div class="container">
+          <div class="left-section">
+            <a href="#!">About Us</a>
+            <a href="#!">My account</a>
+            <a href="#!" class="whishlist">Wishlist</a>
+            <span style="padding-left:15px;">We deliver to you every day from <span class="highlight-time">7:00 to 23:00</span></span>  <!-- https://www.youtube.com/watch?v=m9cAG8B9Qm0&ab_channel=55Digital 52:11 -->
+          </div>
+          <div class="right-section">
+            <div class="button-list">
+                <select class="select__button">
+                  <option class="select__english">English</option>            <!-- тут с кнопкой вниз до конца не разобрался -->
+                  <option class="select__ru">Русский</option>
+                </select>
+                <select class="select__button" style="background-image: url(/icons/select\ usd.png); background-position-x: 40px ; padding-right: 25px; ">
+                  <option>USD</option>
+                  <option>EUR</option>
+                </select>
+            </div>
+            <a href="#!">Order Tracking</a>
+          </div>
+        </div>
+      </div>
+      <hr color="#E5E7EB" style="margin: 0;"/> <!-- границы  -->
+      <div class="middle-header">
+        <div class="container-middle">
+          <div class="geolocation">
+            <img src="icons/Group 70.png" alt="logo">
+            <button class="icon-buttongeo">
+              <img src="icons/geo.png" alt="">
+            </button>
+            <a href="#!" class="deliver-to">
+              <span class="deliver-text">Deliver to</span>
+              <span class="all">all</span>
+            </a>  
+          <!-- https://www.youtube.com/watch?v=m9cAG8B9Qm0&ab_channel=55Digital 52:11 -->
+          </div>
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for products, categories or brands...">
+            <button class="icon-search"> 
+            <img src="icons/Vector.png" alt="">
+            </button>    <!-- делал не сам а через чат гпт  -->
+          </div>
+          <div class="user-profile">
+            <button class="icon-button"> 
+              <img src="icons/userprofile.png" alt="" style="padding-right: 24px;">
+            </button>
+            <a href="#!" class="sign-in">
+              <span class="sign-text">Sign In</span>
+              <span class="account-text">Account</span>
+            </a>  
+            <button class="icon-button">
+              <img src="icons/like.png" alt="" style="padding-right: 14px;">
+            </button>
+            <button class="icon-button">
+              <img src="icons/shopping cart.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div> 
+      <hr color="#E5E7EB" style="margin: 0;" />    <!-- границы  -->
+      <div class="bottom-header">
+        <div class="container-bottom">
+          <div class="navigation">
+            <a href="#!" style="margin: 0px">Home</a>
+            <select class="select__button__main"></select>
+            <a href="#!" style="margin: 0px">Shop</a>
+            <select class="select__button__main"></select>
+            <a href="#!">Fruits & Vegetables</a>
+            <a href="#!">Beverages</a>
+            <a href="#!">Blog</a>
+            <a href="#!">Contact</a>
+          </div>
+          <div class="sale-bar">
+            <a href="#!" class="tproducts">Trending Products</a>
+            <select class="select__button__main"></select>
+            <a href="#!" class="sales">Almost Finished</a>
+            <img src="icons/sale.png" alt="" class="sale-img">
+            <select class="select__button__sale"></select>       <!-- не понял как выровнить отдельно от текста -->
+          </div>
+        </div>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="container__welcome">
+          <h4 class="welcome__subtitle">Weekend Discount</h4> <!-- Доделать размер заднего фона -->
+          <h1 class="welcome__title">Shopping with us for better quality and the best price</h1>
+          <p1 class="welcome__desc">We have prepared special discounts for you on grocery products. <br/> Don't miss these opportunities...</p1> <!-- не работает падинг -->
+          <div class="button__price">
+            <a href="#!" class="button__shop">Shop now</a>
+            <h1 class="price__one">$21.67<span class="price__two">$26.67</span><span class="offer">Don't miss this limited time offer.</span></h1>
+          </div>
+        </div>
+      </section>
+      <section class="food__list">
+        <div class="container__cards">
+          <div class="food__list__card">
+            <img src="icons/list1.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Fruits & Vegetables</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list2.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Baby & Pregnancy</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list3.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Beverages</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list4.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Meats & Seafood </a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list5.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Biscuits & Snacks</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list6.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Breads & Bakery</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list7.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Breaksfast & Dairy</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list8.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Frozen Foods</a>
+          </div>
+          <div class="food__list__card">
+            <img src="icons/list9.png" alt="" class="food__list__img">
+            <a href="" class="food__list__text">Grocery & Staples</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="newsletter__box">
+          <a href="" class="newsletter">Join our newsletter for £10 offs</a>
+          <h4 class="subtitle" style="padding-top:7px; line-height: 19px;">Register now to get latest updates on promotions &<br/>coupons.Don`t worry, we not spam!</h4>
+        </div>
+        <div class="email__sender">
+          <div class="input__group">
+            <img src="icons/logo mail sender.png" alt="" class="email__icon">
+            <input type="email" class="send__email" placeholder="Enter your email address"/>
+            <button class="button__email">SEND</button>
+          </div>
+          <p class="email__subtitle">By subscribing you agree to our <span class="another__email__subtitle">Terms & Conditions and Privacy & Cookies Policy.</span></p>
+        </div>
+      </div>
+      <hr class="hr__border" color="#E5E7EB" />
+      <div class="footer__midle">
+        <div class="middle__cont">
+          <div class="midle__contacts">
+            <a class="help">Do You Need Help ?</a>
+            <h4 class="subtitle">Autoseligen syr. Nek diarask fröbomba. Nör<br/>antipol kynoda nynat. Pressa fåmoska.</h4>
+            <div class="phone__number">  
+              <img src="icons/phone.png" alt="" class="phone__icon">
+              <div>
+                <h4 class="monday">Monday-Friday: 08am-9pm</h4>
+                <h4 class="number">0 800 300-353</h4>
+              </div>
+            </div>
+            <div class="email__contact">
+              <img src="icons/mail.png" alt="">
+              <div >
+                <h4 class="title__email">Need help with your order?</h4>
+                <h4 class="subtitle__email">info@example.com</h4>
+              </div>
+            </div>
+          </div>
+        
+        <nav class="midle__list">
+          <nav class="footer__list">
+            <li class="footer__list__title">
+              <a href="">Make Money with Us</a>
+              <ul class="footer__iner__list">
+                <li class="footer__list__item"><a href="#!">Sell on Grogin</a></li>
+                <li class="footer__list__item"><a href="#!">Sell Your Services on Grogin</a></li>
+                <li class="footer__list__item"><a href="#!">Sell on Grogin Business</a></li>
+                <li class="footer__list__item"><a href="#!">Sell Your Apps on Grogin</a></li>
+                <li class="footer__list__item"><a href="#!">Become an Affilate</a></li>
+                <li class="footer__list__item"><a href="#!">Advertise Your Products</a></li>
+                <li class="footer__list__item"><a href="#!">Sell-Publish with Us</a></li>
+                <li class="footer__list__item"><a href="#!">Become an Blowwe Vendor</a></li>
+              </ul>
+            </li>
+            <li class="footer__list__title">
+              <a href="">Let Us Help You</a>
+              <ul class="footer__iner__list">
+                <li class="footer__list__item"><a href="#!">Accessibility Statement</a></li>
+                <li class="footer__list__item"><a href="#!">Your Orders</a></li>
+                <li class="footer__list__item"><a href="#!">Returns & Replacements</a></li>
+                <li class="footer__list__item"><a href="#!">Shipping Rates & Policies</a></li>
+                <li class="footer__list__item"><a href="#!">Refund and Returns Policy</a></li>
+                <li class="footer__list__item"><a href="#!">Privacy Policy</a></li>
+                <li class="footer__list__item"><a href="#!">Terms and Conditions</a></li>
+                <li class="footer__list__item"><a href="#!">Cookie Settings</a></li>
+                <li class="footer__list__item"><a href="#!">Help Center</a></li>
+              </ul>
+            </li>
+            <li class="footer__list__title">
+              <a href="">Get to Know Us</a>
+              <ul class="footer__iner__list">
+                <li class="footer__list__item"><a href="#!">Careers for Grogin</a></li>
+                <li class="footer__list__item"><a href="#!">About Grogin</a></li>
+                <li class="footer__list__item"><a href="#!">Inverstor Relations</a></li>
+                <li class="footer__list__item"><a href="#!">Grogin Devices</a></li>
+                <li class="footer__list__item"><a href="#!">Customer reviews</a></li>
+                <li class="footer__list__item"><a href="#!">Social Responsibility</a></li>
+                <li class="footer__list__item"><a href="#!">Store Locations</a></li>
+              </ul>
+            </li>
+          </nav>
+          <div class="apps">
+            <div class="app__group">
+              <a href="" class="download__button">Download our app</a>
+              <div class="store__block" style="padding-top:20px;">
+                <img src="icons/googleplay.png" alt="" >
+                <h4 class="subtitle__app">Download App Get<br>-10% Discount</h4>
+              </div>
+            </div>
+            <div class="app__group">
+              <div class="store__block">
+                <img src="icons/appstore.png" alt="">
+                <h4 class="subtitle__app">Download App Get<br>-20% Discount</h4>
+              </div>
+            </div>
+            <div class="social__group">
+              <h4 class="social__media">Follow us on social media:</h4>
+              <div class="social__icons">
+                <img src="icons/facebook.png" alt="">
+                <img src="icons/twitter.png" alt="">
+                <img src="icons/inst.png" alt="">
+                <img src="icons/in.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hr__border" color="#E5E7EB" />
+      <div class="footer__bottom">
+        <div class="coryright__group">
+          <div class="coryright__text">
+            <h4>Copyright 2024 © Jinstore WooCommerce WordPress Theme. All right reserved. Powered by <span style="color: #634C9F;">BlackRise Themes.</span></h4>
+            <div class="bank__icons">
+              <img src="icons/visa.png" alt="">
+              <img src="icons/mastercard.png" alt="">
+              <img src="icons/paypal.png" alt="">
+              <img src="icons/skrill.png" alt="">
+              <img src="icons/klarna.png" alt="">
+            </div>
+          </div>
+          <div class="privacy__group">
+            <a href="">Terms and Conditions</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Order Tracking</a>
+          </div>
+        </div>  
+      </div>
+</footer>
+</body>
+</html>
